@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f14ccdb732.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="fas fa-tractor">   Viejo Roble</h1>
+            <input type="checkbox" id="menu-bar">
+            <label  class="fas fa-bars" for="menu-bar"></label>
+        <nav class="menu">
+             <a href="">Inicio</a>
+             <a href="">Servicios</a>
+             <a href="">Clientes</a>
+        </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="banner">
+            <img src="/images/portada.jpg" alt="Portada">
+            <div class="contenedor">
+                <h2>Creación de espacios verdes</h2>
+                <p>Nivelacion y creacion de espacios verdes</p>
+            </div>
+        </section>
+
+        <section id="inicio">
+            <h2>Viejo Roble Empresa Familiar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A architecto cumque ad fugit debitis quia! Ipsa
+                beatae corrupti quidem placeat, nemo, iure non soluta omnis veritatis perspiciatis eius aliquid iusto!
+            </p>
+        </section>
+
+        <section id=servicios>
+            <h3>Servios Prestados</h3>
+            <div class="contenedor">
+                <article>
+                    <img src="/images/Caminito.jpg" alt="">
+                    <h4>Creacion de espacio verde</h4>
+                </article>
+                <article>
+                    <img src="/images/entrada.jpg" alt="">
+                    <h4>Manteninmiento de countryes</h4>
+                </article>
+                <article>
+                    <img src="/images/house.jpg" alt="">
+                    <h4>Movimiento de suelo</h4>
+                </article>
+            </div>
+        </section>
+        <section id="info">
+            <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam veritatis, vero laborum
+            </h3>
+            <div class="contenedor">
+                <div class="info-lugares">
+                    <img src="/images/cabaña.jpg" alt="">
+                    <h4>Santa Irene</h4>
+                </div>
+                <div class="info-lugares">
+                    <img src="/images/pastocorto.jpg" alt="">
+                    <h4>Particulares</h4>
+                </div>
+                <div class="info-lugares"> <img src="/images/entradaconce.jpg" alt="">
+                    <h4>Concepecion </h4>
+                </div>
+                <div class="info-lugares"> <img src="/images/fogon.jpg" alt="">
+                    <h4>Empresas</h4>
+                </div>
+            </div>
+
+        </section>
+    </main>
+<footer>
+    <div class="contenedor">
+        <p class="copy"> Viejo Roble &copy, 2021</p>
+        <div class="sociales">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="far fa-envelope"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".hide").on('click', function () {
+            $("nav ul").toggle('slow');
+        })
+    </script>
+</body>
+
+</html>
